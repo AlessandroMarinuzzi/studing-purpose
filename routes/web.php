@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return "chi è federico borsci?";
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
