@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return "chi è federico borsci?";
-});
+    return view('about');
+})->name('about');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

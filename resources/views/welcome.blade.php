@@ -38,6 +38,7 @@
                     <h2 class="color_blue ">
                         Who is Federico Borsci?
                     </h2>
+                    <a href="{{route('about')}}">About</a>
                 </div>
             </div>
         </div>
